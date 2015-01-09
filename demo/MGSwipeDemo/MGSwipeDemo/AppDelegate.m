@@ -5,6 +5,7 @@
 
 #import "AppDelegate.h"
 #import "DemoViewController.h"
+#import "CollectionViewTest.h"
 
 @implementation AppDelegate
 
@@ -12,7 +13,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    DemoViewController * vc = [[DemoViewController alloc] init];
+    CollectionViewTest * vc = [[CollectionViewTest alloc] init];
     UINavigationController * navigation = [[UINavigationController alloc] initWithRootViewController:vc];
     navigation.navigationBar.translucent = NO;
     self.window.rootViewController = navigation;
